@@ -30,3 +30,7 @@ create table movement(
 	creation_date timestamp default CURRENT_TIMESTAMP()
 );
 
+insert into user values(default, "testuser", "testpass", "test@test.com", default);
+
+select * from user
+where id=1;
